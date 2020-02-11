@@ -21,11 +21,13 @@ vectorpos=seq(1,100,by=2)
 # Create a vector of numbers that starts at 6, does not pass 55, and adds numbers in increments of 4/7: 6, 6 + 4/7, 6 + 8/7, and so on. How many numbers does the list have? Hint: use seq and length.
 vectorfrac=seq(6,55, by=(4/7))
 # What is the class of the following object a <- seq(1, 10, 0.5)?
+a=seq(1,10,0.5)
 class(a)
 #What is the class of the following object a <- seq(1, 10)?
+a=seq(1,10)
 class(a)                      
 # The class of class(a<-1) is numeric, not integer. R defaults to numeric and to force an integer, you need to add the letter L. Confirm that the class of 1L is integer.
-                          
+class(a<-1L)                          
 # Define the following vector:x <- c("1", "3", "5") and coerce it to get integers.
 
 
