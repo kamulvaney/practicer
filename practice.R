@@ -15,12 +15,11 @@ temp[1:3]
 # Use the [ operator to access the temperature of Paris and San Juan.
 temp[c("Paris", "San Juan")]                        
 # Use the : operator to create a sequence of numbers  12,13,14,.....73
-seqa=c(12:73)                        
-                          
+seqa=c(12:73)                       
 # Create a vector containing all the positive odd numbers smaller than 100.
-                          
+vectorpos=seq(1,100,by=2)                          
 # Create a vector of numbers that starts at 6, does not pass 55, and adds numbers in increments of 4/7: 6, 6 + 4/7, 6 + 8/7, and so on. How many numbers does the list have? Hint: use seq and length.
-                          
+vectorfrac=seq(6,55, by=(4/7))
 # What is the class of the following object a <- seq(1, 10, 0.5)?
 class(a)
 #What is the class of the following object a <- seq(1, 10)?
